@@ -1,0 +1,96 @@
+body {
+  background: black;
+  color: #c2c2c2;
+  margin:0;
+  /* padding: 10px; */
+}
+
+/* header, nav main footer  */
+
+header, nav, main, footer {
+  background: black;
+}
+
+
+main h1 {
+  text-align: center;
+}
+
+nav {
+  padding: 5px;
+  width: 100px;
+  margin: 0 1em;
+/*   border-style: solid;
+  border-color: white; */
+}
+
+nav img {
+  padding-bottom: 10px;
+}
+
+gallery {
+  margin: 0 auto;
+  /* margin-top: 1.5em; */
+  margin-bottom: 5em;
+}
+
+footer{
+  display: none;
+  min-height: 1em;
+}
+
+/* element  */
+
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+	top: -0.5em;
+}
+
+
+/* class */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+  margin: 0 auto;
+  margin-top: 2em;
+  font-size: 1.3em;
+}
+
+.tablecell{
+  padding: 8px;
+}
+
+/* photo gallery */
+.lg-backdrop.in {
+  opacity: 0.6;
+}
+
+.fixed-size.lg-outer .lg-inner {
+background-color: #000;
+}
+.fixed-size.lg-outer .lg-sub-html {
+position: absolute;
+text-align: left;
+}
+.fixed-size.lg-outer .lg-toolbar {
+background-color: transparent;
+height: 0;
+}
+.fixed-size.lg-outer .lg-toolbar .lg-icon {
+color: #FFF;
+}
+.fixed-size.lg-outer .lg-img-wrap {
+padding: 12px;
+}
+
+#thumbnail-fixed {
+  margin-top: 1em;
+  max-width: 850px;
+}
